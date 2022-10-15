@@ -40,6 +40,7 @@ Alábbi projektmunkánk a magyar informatikusokról szól. Az alábbi személyek
 - Charles Simonyi<br>
 - Nemes Tihamér
 </p>
+
 ---
 ### |Linkek|
 - [GITHUB](https://github.com/Csapii/1-projekt-WEBSZERKESZTES-AlphaTeam)
