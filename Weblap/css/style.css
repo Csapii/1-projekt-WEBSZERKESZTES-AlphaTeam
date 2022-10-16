@@ -9,11 +9,28 @@ body{
 
 }
 
+main{
+    margin-top: 50px;
+}
+
 .bev{
     background-color: #fff;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 30px 0;
+}
+
+.bev p{
+    text-align: justify;
+}
+
+.bev img{
+    border-radius: 15px;
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    object-position: 55% 15%;
 }
 
 #csik{
@@ -59,4 +76,23 @@ footer{
     background-color: #fff;
     padding: 7px;
     font-weight: bold;
+}
+
+.home{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    font-size: 60px;
+    
+}
+.home a{
+    text-decoration: none;
+    color: rgb(168, 0, 0);
+    transition: 0.2s;
+    transform: rotate(0);
+}
+
+.home a:hover{
+    color: grey; 
+    transform: scale(1.15);
 }
