@@ -54,3 +54,9 @@ body{
         object-position: 30% 34%;
     }
 }
+
+footer{
+    background-color: #fff;
+    padding: 7px;
+    font-weight: bold;
+}
