@@ -86,11 +86,15 @@ main{
 
 .person{
     color: #fff;
+
+}
+
+.person .start{
+    margin: 40px 0;
     background-color: #191c29;
     border-radius: 20px;
     animation: glowing-blue var(--animation-set);
 }
-
 
 .person .start div:first-child{
     padding: 50px;
@@ -98,6 +102,7 @@ main{
 
 .person .start img{
     border-radius: 10px 120px 40px 110px;
+    box-shadow: 0px 0px 7px #fff;
 }
 
 
@@ -124,6 +129,22 @@ main{
     text-align: justify;
     font-size: 20px;
 }
+
+.person .career{
+    margin: 40px 0;
+    background-color: #191c29;
+    border-radius: 20px;
+    animation: glowing-blue var(--animation-set);
+    padding: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.border-radius-img{
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 0px 0px 7px #fff;
+}
+
 
 /* Footer */
 footer{
