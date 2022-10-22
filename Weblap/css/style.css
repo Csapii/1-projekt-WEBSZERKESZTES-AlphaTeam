@@ -226,7 +226,7 @@ footer{
     animation: glowing-blue var(--animation-set);
 }
 /* Információk */
-.creators{
+#creators{
     color: #fff;
     background-color: var(--card-color);
     padding: 20px;
