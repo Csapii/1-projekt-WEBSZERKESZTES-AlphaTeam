@@ -158,14 +158,16 @@ footer{
 /* Aloldal vissza a kezdőlapra */
 .main-home-button{
     position: sticky;
-    margin-left: 15px;
     top: 50%;
+    width: 70px;
+    height: 70px;
+    left: 30px;
 }
 
 @media (max-width: 1340px){
     .main-home-button{
         margin-left: 50%;
-        top: 95%;
+        top: 88%;
     }
 }
 
