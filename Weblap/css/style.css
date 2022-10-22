@@ -2,6 +2,8 @@
 
 :root{
     --background-color: #212534;
+    --card-color: #191c29;
+    --animation-set: 2s ease-in-out infinite alternate;
 }
 
 
@@ -35,34 +37,8 @@ main{
     border-radius: 10px;
     margin: 70px 0;
 
-    animation: glowing-blue 2s ease-in-out infinite alternate;
+    animation: glowing-blue var(--animation-set);
 }
-
-
-
-/* Kezdőlap bevezető */
-
-.bev{
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 30px 0;
-    
-}
-
-.bev p{
-    text-align: justify;
-}
-
-.bev img{
-    border-radius: 15px;
-    width: 270px;
-    height: 270px;
-    object-fit: cover;
-    object-position: 55% 15%;
-}
-
 
 
 
@@ -74,7 +50,7 @@ main{
 }
 
 .card-main{
-    animation: glowing-blue 2s ease-in-out infinite alternate;
+    animation: glowing-blue var(--animation-set);
     border-radius: 22px;
 }
 
@@ -92,7 +68,7 @@ main{
     color: #fff;
     padding: 15px;
     border-radius: 0 0 15px 15px;
-    background-color: #191c29;
+    background-color: var(--card-color);
 }
 
 .people p{
@@ -106,6 +82,48 @@ main{
     }
 }
 
+/* Aloldal */
+
+.person{
+    color: #fff;
+    background-color: #191c29;
+    border-radius: 20px;
+    animation: glowing-blue var(--animation-set);
+}
+
+
+.person .start div:first-child{
+    padding: 50px;
+}
+
+.person .start img{
+    border-radius: 10px 120px 40px 110px;
+}
+
+
+.person .text{
+    padding: 60px;
+}
+
+.person .text h1{
+    
+    margin: 20px 0; 
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.person .text h2{
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.person .text p{
+    margin: 10px 0;
+    text-align: justify;
+    font-size: 20px;
+}
 
 /* Footer */
 footer{
@@ -135,7 +153,7 @@ footer{
     position: fixed;
     right: 25px;
     bottom: 25px;  
-    animation: glowing-white 2s ease-in-out infinite alternate;
+    animation: glowing-white var(--animation-set);
 
 }
 
@@ -163,7 +181,7 @@ footer{
 /* Kártyák */
 
 .card {
-    background: #191c29;
+    background: var(--card-color);
     width: 100%;
     height: auto;
     padding: 3px;
@@ -173,7 +191,7 @@ footer{
     text-align: center;
     font-size: 1.7em;
     color: rgba(251, 251, 251); 
-    animation: glowing-blue 2s ease-in-out infinite alternate;
+    animation: glowing-blue var(--animation-set);
 }
   
 
