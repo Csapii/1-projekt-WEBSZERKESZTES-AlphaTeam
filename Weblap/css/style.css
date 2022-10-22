@@ -110,10 +110,10 @@ main{
     padding: 60px;
 }
 
-.person .text h1{
+.person .text h1, .person .career h2{
     
     margin: 20px 0; 
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
 }
 
@@ -143,6 +143,7 @@ main{
 .border-radius-img{
     border-radius: 10px 30px 10px 30px;
     box-shadow: 0px 0px 7px #fff;
+    margin: 20px 0;
 }
 
 
@@ -155,7 +156,18 @@ footer{
 
 
 /* Aloldal vissza a kezdőlapra */
+.main-home-button{
+    position: sticky;
+    margin-left: 15px;
+    top: 50%;
+}
 
+@media (max-width: 1340px){
+    .main-home-button{
+        margin-left: 50%;
+        top: 95%;
+    }
+}
 
 .home-a{
     text-decoration: none;
@@ -171,9 +183,6 @@ footer{
     height:60px;
     padding: 0px 5px 14px 4px;  
     transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    position: fixed;
-    right: 25px;
-    bottom: 25px;  
     animation: glowing-white var(--animation-set);
 
 }
