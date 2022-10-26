@@ -29,7 +29,6 @@ main{
     filter: grayscale(100%);
 }
 
-
 /* Csík/vonal */
 #csik{
     height: 6px;
@@ -38,7 +37,7 @@ main{
     margin: 70px 0;
 }
 
-/* Show, hide */
+/* Show, hide, (bevezető szöveg) */
 
 .show{
     display: block;
