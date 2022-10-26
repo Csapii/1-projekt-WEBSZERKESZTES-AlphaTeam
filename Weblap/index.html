@@ -33,10 +33,23 @@
 </div>
 <main class="container">
     <!-- Bevezető szöveg -->
-    <div class="card">
-        Ebben a weblapban olvashattok három informatikához köthető személyről. Nemes Tihamérról aki hazai úttörője a kibernetikának, ami egy komplex tudományos irányzat, a szabályozás, vezérlés, információfeldolgozás, továbbítás általános törvényeit kutatja. Neumann Jánosról akinek az elvei alapján elkészült az első elektronikusan működő számítógép. Charles Simonyi szoftverfejlesztőről aki a szándékorientált programozás kutatója. 
-      </div>
+    <p id = "para">Click me</p>  
 
+    <button class="hungary_version">Vált?</button>
+
+    <div class="card card_bevezeto_magyar show">
+        Ebben a weblapban olvashattok három informatikához köthető személyről. Nemes Tihamérról aki hazai úttörője a kibernetikának, ami egy komplex tudományos irányzat, a szabályozás, vezérlés, információfeldolgozás, továbbítás általános törvényeit kutatja. Neumann Jánosról akinek az elvei alapján elkészült az első elektronikusan működő számítógép. Charles Simonyi szoftverfejlesztőről aki a szándékorientált programozás kutatója. 
+        <button onclick="myFunction()">Eninglish version</button>
+    </div>
+
+    <div class="card card_bevezeto_angol hide">
+        As you can see, on this website you can read about 3 major people in the tech/IT industry in the early times.
+        Tihamér Nemes, who is the domestic pioneer of cybernetics which is a complex scientific trend and the following topics part of that, regulation, control, data processing, and general laws of transmission.
+        Janos Neumann made the basic principles of how computers should work and the first electronic computer which is used these rules.
+        Charles Simonyi is a software developer and researcher of Intentional programming.        <button onclick="ChangeLanguage()">Magyar verzió</button>
+    </div>
+
+    
 
     <!-- Csík -->
     <div id="csik"></div>
@@ -86,13 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="card mt-4 mb-4">
-        <p>As you can see, on this website you can read about 3 major people in the tech/IT industry in the early times.
-            Tihamér Nemes, who is the domestic pioneer of cybernetics which is a complex scientific trend and the following topics part of that, regulation, control, data processing, and general laws of transmission.
-            Janos Neumann made the basic principles of how computers should work and the first electronic computer which is used these rules.
-            Charles Simonyi is a software developer and researcher of Intentional programming.
-        </p>
-    </div>
+
 </main>
 
 
@@ -104,3 +111,4 @@
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>

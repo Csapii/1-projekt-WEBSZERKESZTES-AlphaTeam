@@ -38,7 +38,16 @@ main{
     margin: 70px 0;
 }
 
+/* Show, hide */
 
+.show{
+    display: block;
+}
+
+
+.hide{
+    display: none;
+}
 
 /* Kezdőlap kártyák  */
 
