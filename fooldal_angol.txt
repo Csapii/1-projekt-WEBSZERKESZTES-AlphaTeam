@@ -1,8 +1,7 @@
-As you can see, you can read about 3 major people in the tech/IT industry in the early times.
-Tihamér Nemes, who is the domestic pioneer of cybernetics which is a complex scientific trend and the following topics part of that, regulation, control, data processing, and general laws of transmission.
-Janos Neumann made the basic principles of how computers should work and the first electronic computer which is used these rules.
-Charles Simonyi is a software developer and researcher of Intentional programming.
-
+As you can see, on this website you can read about 3 major people in the tech/IT industry in the early times.
+Tihamér Nemes, who was the domestic pioneer of cybernetics. (cybernetics is a complex scientific trend, and the following topics are part of it, regulation, control, data processing, and general laws of transmission.)
+Janos Neumann was the person who made the basic principles of how computers should work. The first electronic computer used these rules too.
+Charles Simonyi is a software developer and researcher of Intentional programming. 
 
 János Neumann
 
