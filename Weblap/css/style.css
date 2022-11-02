@@ -273,6 +273,7 @@ table th, table td {
 
 
 table tbody tr {
+    color: #fff;
     border-bottom: 1px solid #dddddd;
 }
 
