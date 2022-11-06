@@ -240,6 +240,14 @@ footer{
 
 
 /* Információk */
+#creators{
+    margin: 50px 0;
+    color: #fff;
+    background-color: var(--card-color);
+    padding: 20px;
+    border-radius: 15px;
+    animation: glowing-blue var(--animation-set);
+}
 .source{
     margin: 50px 0;
     color: #fff;
@@ -249,7 +257,8 @@ footer{
     animation: glowing-blue var(--animation-set);
 }
 
-/* Táblázat */
+
+    /* Táblázat */
 table{
     border-collapse: collapse;
     margin: 25px auto;
